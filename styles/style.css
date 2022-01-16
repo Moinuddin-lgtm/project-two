@@ -9,10 +9,9 @@ body{
 
 main{display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+  }
 
-     /* include main camera & top header style start */
-    
 .heading-button h1{
     color: #3A3A3A;
     width: 400px;
@@ -42,12 +41,8 @@ font-size: 16px;
 width: 196px;
 height: 44px;
 border-radius: 41px;}
-   /* include main camera & top header style start */
-
 
 hr{margin-top: 50px;}
-
-/* product list style start */
 
 .product-title{
 text-align: center;
@@ -108,16 +103,12 @@ align-items: center;
 letter-spacing: 0.018em;
 color: #787885; }
      
-/* product list style end */
-
-/* product Ratings */
     .fa-star{font-size: 12px;}
     .fa-star.filled{
      color: #FFC014;}
     .fa-star.empty{
     color: #AEAEAE;}
 
-/* form style */
 
 .wrapper {
   width: 90%;
@@ -197,9 +188,6 @@ i {
   }
 }
 
-
-/* footer start here ------------------------- */
-
 footer {
     width: 120%;
     height:160px;
@@ -226,11 +214,6 @@ footer {
     border-radius: 20px;
     background-color: #13243d;
     color: #FFFFFF;}
-    /* footer end here-------------------------------- */
-
-
-
-   /* media Queries mobile Devices*/
 
    @media only screen and (max-width:688px) {
        .section-1{width:100%}
@@ -253,8 +236,6 @@ footer {
         height: 230px;}
 
      }
-
-        /* media Queries Tablet Devices*/
 
  @media only screen and (min-width:688px)and
         (max-width:992px){
